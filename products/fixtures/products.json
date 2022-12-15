@@ -1,0 +1,58 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "shirt",
+        "description": "hgrfhgfhgfh",
+        "price": 44.14,
+        "image": "",
+        "featured": true,
+        "active": true,
+        "timestamp": "2021-05-04T23:04:31.861Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Hat",
+        "slug": "abc",
+        "description": "tryrtfgh",
+        "price": 22.66,
+        "image": "products/13792417126/13792417126.png",
+        "featured": false,
+        "active": true,
+        "timestamp": "2021-05-04T23:04:31.861Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt",
+        "description": "werftghj",
+        "price": 10.0,
+        "image": "",
+        "featured": false,
+        "active": true,
+        "timestamp": "2021-05-04T23:04:31.861Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt-lz4s",
+        "description": "yithjklol",
+        "price": 11.0,
+        "image": "",
+        "featured": false,
+        "active": true,
+        "timestamp": "2021-05-04T23:04:31.861Z"
+    }
+}
+]

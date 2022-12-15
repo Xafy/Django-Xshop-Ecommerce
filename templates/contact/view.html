@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{%load static%}
+
+{% block title %}home{% endblock title %}
+
+{% block content %}
+  <div class="container">
+  <div class="row">
+  <div class="col">
+    <div class="col-sm-6 col-12">
+        <form method="POST" action="{% url 'contact' %}" class="contact-form">
+        {% csrf_token %}
+        {{form}}
+        <button   button type="submit" class="btn btn-success">submit</button>
+      </form>
+        {% comment %} <form>
+            <input type="text" class="form-control" placeholder="name" name="fullname">
+            <input type="email" class="form-control" placeholder="email" name="email">
+            <textarea name="content" placeholder="your content"></textarea>
+            <button   button type="submit" class="btn btn-success">submit</button>
+        </form> {% endcomment %}
+    </div>
+  </div>
+  </div>
+  </div>
+
+{% endblock content %}
